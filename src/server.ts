@@ -47,7 +47,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
         else
         {
           return res.status(400)       //  Return 400
-          .send(`url can't be reached! `+image_url);
+          .send(`Invalid URL endpoint, please review and try again! `+image_url);
         }
       });
       
